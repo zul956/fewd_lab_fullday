@@ -7,7 +7,16 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+/*
+banner image
+https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/melbourne.jpg
 
+
+https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/fitzroy.jpg
+https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/st-kilda.jpg
+https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/central-business-district.jpg
+
+*/
 /**
 For banner over lay add this class to your div
 <div class="banner__container">
