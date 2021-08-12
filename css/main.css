@@ -46,7 +46,17 @@ For banner over lay add this class to your div
   margin: 0 auto;
 }
 
+.container nav a {
+  color: black;
+  text-decoration: none;
+  padding: 5px 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
 
+.container nav {
+  padding: 10px 10px;
+}
 
 .flex {
   display: flex;
