@@ -5,14 +5,98 @@
 
     <!-- Google Font embed -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,700,900" rel="stylesheet">
-
+    <link rel="stylesheet" href="css/main.css">
   </head>
-  <body>
-    
+  <body>   
  <!-- Logo: https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/logo.png -->
  <!-- Heart icon: https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/heart.png -->
  <!-- Chat icon: https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/chat.png -->
-    <p>Make it look like this:</p>
-    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/airbnb-solution-image.jpg" alt="solution" style="width:1200px;" />
+    <div class="container flex justify">
+      <div>
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/logo.png" alt="web logo">
+      </div>
+
+      <nav>
+        <a href="#">Sign Up</a>
+        <a href="#">Login</a>
+      </nav>
+
+    </div>
+
+    <div class="banner__container flex justify_center">
+      <div>
+        <h2>Melbourne</h2>
+        <p>From footy to fashion, the cultural capital of australia dares to stay on the cutting edge.</p>
+        <button class="button">Find a neighborhood</button>
+      </div>       
+    </div>
+
+    <div class="grid grid-container container_activity">
+      <div class="grid-left">
+        <div class="title">
+          <h2>Locals Love</h2>
+        </div>
+        <div class="flex content">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/heart.png" alt="heart logo">
+          <p>Tourists mispronouncing Melbourne (it's mel-bin),crowded trains & trams, ticket inspectors, unpredicatable weather, the price of real estate, Sydney.</p>
+        </div>
+      </div>
+
+      <div class="grid-right">
+        <div class="title">
+          <h2>Locals Complain About</h2>
+        </div>
+        <div class="flex content">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/chat.png" alt="chat icon">
+          <p>Coffee, talking about coffee, brunch, footy in winter, cricket in summer, laneways & hidden bars, street art & buskers, debating which side of the river is better</p>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="flex features-title">
+        <h2>Featured Neighborhoods</h2>
+        <p>Explore 19 Melbourne neighborhoods. Which are right for you?</p>
+      </div>
+
+      <div class="grid thumbnail">
+        <div>
+          <div class="flex justify-thumbnail thumbnail-container image1">
+            <h2>Fitzroy</h2>
+            <p>Baristas, Beards, Bikes.</p>
+          </div>
+          <div class="description">
+            <p>Hip Terrace Houses Anything goes Vintage Clothing</p>
+          </div>
+        </div>
+        <div>
+          <div class="flex justify-thumbnail thumbnail-container image2">
+            <h2>St Kilda</h2>
+            <p>Backpackers and packed sand.</p>
+          </div>
+          <div class="description">
+            <p>Cake Shops Backpackers Hippies Beach Culture</p>
+          </div>
+        </div>
+        <div>
+          <div class="flex justify-thumbnail thumbnail-container image3">
+            <h2>Central Business District</h2>
+            <p>Big business. Little laneways.</p>
+          </div>
+          <div class="description">
+            <p>Coffee Culture Working Nine to Five Federation Square Finders Street Station</p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <button class="button">Find a neighborhood</button>
+      </div>
+    </div>
+
+    <div class="flex footer">
+      <footer>@Airbnb Inc.</footer>
+    </div>
+    
   </body>
 </html>

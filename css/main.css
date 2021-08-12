@@ -27,6 +27,8 @@ For banner over lay add this class to your div
 */
 .banner__container {
   position: relative;
+  background-image: url("../imgs/melbourne.jpg");
+  height: 600px;
 }
 
 .banner__container:before {
@@ -37,4 +39,151 @@ For banner over lay add this class to your div
   bottom: 0;
   background-color: rgba(0,0,0,0.4);
   content: "";
+}
+
+.container {
+  padding: 10px 30px;
+  margin: 0 auto;
+}
+
+
+
+.flex {
+  display: flex;
+}
+
+.justify {
+  justify-content: space-between;
+}
+
+.justify_center {
+  justify-content: center;
+  align-items: center;
+}
+
+.banner__container div {
+  /* width: 50%; */
+  /* margin: 25% 25%; */
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+/* .banner__container h2 {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+} */
+
+/* .banner__container p {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+} */
+
+/* .banner__container button {
+  display: block;
+  margin: auto;
+  color: rgb(187, 59, 102);
+  background-color: pink;
+  padding: 5px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+} */
+
+.container_activity {
+  padding: 50px 5px;
+  background-color: rgb(218, 216, 216);
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-container {
+  grid-template-areas: 'left right';
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.grid-left {
+  grid-area: left;
+  
+}
+
+.grid-right {
+  grid-area: right;
+}
+
+.title {
+  background-color: rgb(218, 216, 216);
+}  
+
+.content {
+  background-color: white;
+}
+
+.thumbnail {
+  grid-template-columns: 2fr 2fr 2fr;
+  gap: 2rem;
+  margin-bottom: 30px;
+}
+
+.image1 {
+  background-image: url(../imgs/1\ thumbnail.jpg);
+}
+
+.image2 {
+  background-image: url(../imgs/2\ thumbnail.jpg);
+}
+
+.image3 {
+  background-image: url(../imgs/3\ thumbnail.jpg);
+}
+
+.thumbnail-container {
+  height: 210px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.button {
+  display: block;
+  margin: auto;
+  color: rgb(187, 59, 102);
+  background-color: pink;
+  padding: 5px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+.features-title {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 15px;
+}
+
+.justify-thumbnail {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  background-color: rgb(218, 216, 216);
+}
+
+.footer {
+  justify-content: center;
+  padding: 20px auto;
+  margin: 40px auto;
 }
