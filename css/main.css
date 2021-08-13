@@ -115,32 +115,42 @@ For banner over lay add this class to your div
 }
 
 .grid-container {
-  grid-template-areas: 'left right';
+  /* grid-template-areas: 'left right'; */
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
 }
 
+.grid-border {
+  border: 1px solid rgb(156, 154, 154);
+}
+
 .grid-left {
-  grid-area: left;
-  
+  /* grid-area: left; */
 }
 
 .grid-right {
-  grid-area: right;
+  /* grid-area: right; */
 }
 
 .title {
   background-color: rgb(218, 216, 216);
+  padding: 1em 0;
+  padding-left: 15px;
 }  
 
 .content {
   background-color: white;
+  padding: 15px 15px;
 }
 
 .thumbnail {
   grid-template-columns: 2fr 2fr 2fr;
   gap: 2rem;
   margin-bottom: 30px;
+}
+
+.features-container {
+  border: 1px solid rgb(156, 154, 154);
 }
 
 .image1 {
@@ -166,12 +176,13 @@ For banner over lay add this class to your div
   display: block;
   margin: auto;
   color: rgb(187, 59, 102);
-  background-color: pink;
+  background-color: rgb(231, 144, 159);
   padding: 5px 20px;
   font-size: 20px;
   border-radius: 5px;
   border: none;
   color: white;
+  box-shadow: 0 2px red;
 }
 
 .features-title {
@@ -180,6 +191,8 @@ For banner over lay add this class to your div
   align-items: center;
   padding-top: 40px;
   padding-bottom: 15px;
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
 .justify-thumbnail {
@@ -190,10 +203,50 @@ For banner over lay add this class to your div
 
 .description {
   background-color: rgb(218, 216, 216);
+  padding: 1px 5px 20px 15px;
+  font-size: 13px;
+  font-weight: bold;
 }
 
 .footer {
   justify-content: center;
   padding: 20px auto;
   margin: 40px auto;
+  background-color: rgb(83, 81, 81);
 }
+
+@media (min-width: 0px) and (max-width: 414px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+
+    .container {
+      padding: 2px;
+    }
+
+    .container img {
+      width: 100px;
+    }
+
+    .container nav a{
+      font-size: 12px;
+    }
+
+    .inside-container {
+      width: 70%;
+      font-size: 1rem;
+    }
+
+    .banner__container div {
+      /* width: 50%; */
+      /* margin: 25% 25%; */
+      font-size: 12px;
+      width: 70%;
+    }
+
+    .button {
+      font-size: 12px;
+    }
+    
+}
+
